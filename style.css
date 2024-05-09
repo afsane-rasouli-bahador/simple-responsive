@@ -20,7 +20,7 @@ ul{
 }
 div#container{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
@@ -109,7 +109,7 @@ footer p{
 }
 @media screen and (min-width: 960px) {
     div#container{
-        grid-template-columns: 200px 1fr 50px;
+        grid-template-columns: 200px auto 50px;
         grid-template-rows: 1fr 3fr 3fr 3fr 3fr 1fr;
     }
     header{
